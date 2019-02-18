@@ -1,0 +1,15 @@
+# Import all requirements in requirements.in
+-r requirements.in
+
+# Packaging
+twine
+
+# Testing
+pytest==3.6.4
+flake8==3.5.0
+tox
+
+# Documentation
+Sphinx==1.7.6
+sphinx_rtd_theme
+sphinxcontrib-napoleon
