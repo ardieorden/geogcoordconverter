@@ -5,7 +5,7 @@ import numpy as np
 def convert_dms_to_dd(dms):
     """
     Convert values expressed in DMS (decimals, minutes, seconds) to decimal degrees.
-    
+
     Parameters
     ----------
     dms: string
@@ -33,7 +33,7 @@ def convert_dms_to_dd(dms):
         dd = abs(dd)
     if hemisphere == 'S' or hemisphere == 'W':
         dd = -abs(dd)
-    
+
     return dd
 
 
@@ -49,7 +49,7 @@ def convert_dd_to_dms(dd):
     
     Returns
     -------
-    dms: string
+    dms: tuple
         DMS value without special symbols
     
     """

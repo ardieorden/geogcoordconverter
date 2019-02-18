@@ -1,0 +1,3 @@
+[
+  "tests/test_converters.py::test_convert_dd_to_dms_value[dd0]"
+]
